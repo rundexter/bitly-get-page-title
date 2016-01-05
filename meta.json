@@ -2,25 +2,50 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "shortUrl",
+            "title": "Bitlink"
+        },
+        {
+            "id": "hash",
+            "title": "Hash"
+        },
+        {
+            "id": "expand_user",
+            "title": "User Info?"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "short_url",
+            "title": "Bitlink"
+        },
+        {
+            "id": "hash",
+            "title": "Hash"
+        },
+        {
+            "id": "user_hash",
+            "title": "User ID"
+        },
+        {
+            "id": "global_hash",
+            "title": "Bitly ID"
+        },
+        {
+            "id": "title",
+            "title": "Page Title"
+        },
+        {
+            "id": "created_by",
+            "title": "Created By"
+        },
+        {
+            "id": "created_at",
+            "title": "Created On"
         }
-      */
     ],
-    "title": "Bitly: Get Page Title" /* Required.A display name for the module */
+    "icon": "dex-bitly",
+    "title": "Bitly: Get Page Title"
 }
