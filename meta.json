@@ -46,6 +46,9 @@
             "title": "Created On"
         }
     ],
+    "providers": [{
+        "name": "bitly"
+    }],
     "icon": "dex-bitly",
     "title": "Bitly: Get Page Title"
 }
